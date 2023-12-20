@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/IQKV/web-config",
   "devDependencies": {
-    "@commitlint/cli": "^17.8.1",
+    "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^17.8.1",
     "@iqkv/prettier-config": "workspace:^",
     "cz-conventional-changelog": "^3.3.0",
