@@ -1,6 +1,6 @@
 {
   "name": "@iqkv/eslint-config",
-  "version": "0.23.9",
+  "version": "0.23.10",
   "description": "Shared ESLint configuration files for IQKV projects",
   "main": "index.js",
   "author": "Dima Denysenko",
