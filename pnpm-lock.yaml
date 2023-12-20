@@ -77,7 +77,7 @@ importers:
     optionalDependencies:
       '@remix-run/eslint-config':
         specifier: ^2.2.0
-        version: 2.2.0(eslint@8.53.0)(react@18.2.0)(typescript@5.2.2)
+        version: 2.4.0(eslint@8.53.0)(react@18.2.0)(typescript@5.2.2)
 
   packages/prettier-config: {}
 
@@ -475,6 +475,7 @@ packages:
   /@commitlint/config-validator@18.4.3:
     resolution: {integrity: sha512-FPZZmTJBARPCyef9ohRC9EANiQEKSWIdatx5OlgeHKu878dWwpyeFauVkhzuBRJFcCA4Uvz/FDtlDKs008IHcA==}
     engines: {node: '>=v18'}
+    requiresBuild: true
     dependencies:
       '@commitlint/types': 18.4.3
       ajv: 8.12.0
@@ -495,6 +496,7 @@ packages:
   /@commitlint/execute-rule@18.4.3:
     resolution: {integrity: sha512-t7FM4c+BdX9WWZCPrrbV5+0SWLgT3kCq7e7/GhHCreYifg3V8qyvO127HF796vyFql75n4TFF+5v1asOOWkV1Q==}
     engines: {node: '>=v18'}
+    requiresBuild: true
     dev: true
 
   /@commitlint/format@18.4.3:
@@ -571,6 +573,7 @@ packages:
   /@commitlint/resolve-extends@18.4.3:
     resolution: {integrity: sha512-30sk04LZWf8+SDgJrbJCjM90gTg2LxsD9cykCFeFu+JFHvBFq5ugzp2eO/DJGylAdVaqxej3c7eTSE64hR/lnw==}
     engines: {node: '>=v18'}
+    requiresBuild: true
     dependencies:
       '@commitlint/config-validator': 18.4.3
       '@commitlint/types': 18.4.3
@@ -1158,8 +1161,8 @@ packages:
     dev: true
     optional: true
 
-  /@remix-run/eslint-config@2.2.0(eslint@8.53.0)(react@18.2.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-H+LPiQhsXaCsOVvyB5vf6wTAv72m/pI6rdoCjyx3ayipNGAuqldkAnmFD6Qa/Bpc/zRHk13+PZV27kjyNd32vw==}
+  /@remix-run/eslint-config@2.4.0(eslint@8.53.0)(react@18.2.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-eKlRNt0k8QbU/6+HBQ+s/2gpcCgK13pMU7iPkmKILIon4MMxNgRhKcxJnJDbGbraTt8hcddhHuWHhVh/wTu4IQ==}
     engines: {node: '>=18.0.0'}
     requiresBuild: true
     peerDependencies:
