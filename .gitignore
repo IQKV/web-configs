@@ -9,6 +9,7 @@ npm-debug.log.*
 /.awcache/*
 /.cache-loader/*
 package-lock.json
+.nx
 
 ######################
 # SASS
