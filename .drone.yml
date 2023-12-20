@@ -1,0 +1,17 @@
+kind : pipeline
+name : ContinuousIntegration
+type : docker
+
+trigger :
+  event :
+    - push
+  ref :
+    - refs/heads/dev
+
+steps :
+  - name : release
+    image : know-how.sbs/svc-builder:openjdk-21-slim-bookworm
+    pull : if-not-exists
+    commands :
+      - pnpm install
+      - lerna publish --yes --no-commit-hooks

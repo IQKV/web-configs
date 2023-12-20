@@ -1,14 +1,14 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "npmClient": "pnpm",
-  "version": "24.0.0",
+  "version": "0.23.9",
   "packages": ["packages/*"],
   "command": {
     "publish": {
       "allowBranch": "dev",
       "conventionalCommits": true,
       "message": "chore: bumping version %s",
-      "registry": "https://know-how.nexus/iqkv-npm"
+      "registry": "https://know-how.nexus/repository/iqkv-npm"
     }
   }
 }

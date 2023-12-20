@@ -2,6 +2,7 @@
   "name": "@iqkv/web-config",
   "private": false,
   "description": "Common configurations for building web apps at IQKV.",
+  "version": "0.23.9",
   "scripts": {
     "build": "lerna run build",
     "lint": "prettier --check . && eslint --output-file checkstyle.xml --format checkstyle .",
@@ -22,7 +23,7 @@
   },
   "homepage": "https://github.com/IQKV/web-config",
   "devDependencies": {
-    "@commitlint/cli": "^17.8.1",
+    "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^17.8.1",
     "@iqkv/prettier-config": "workspace:^",
     "cz-conventional-changelog": "^3.3.0",
@@ -32,9 +33,9 @@
     "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-jest": "^27.6.0",
     "husky": "^8.0.3",
-    "lerna": "^7.4.2",
-    "lint-staged": "^14.0.1",
-    "nx": "^16.10.0",
+    "lerna": "^8.0.1",
+    "lint-staged": "^15.2.0",
+    "nx": "^17.2.6",
     "prettier": "^3.0.3"
   },
   "config": {
