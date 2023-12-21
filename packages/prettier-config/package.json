@@ -1,0 +1,16 @@
+{
+  "name": "@iqkv/prettier-config",
+  "version": "23.0.0",
+  "description": "Shared config for Prettier",
+  "author": "Dima Denysenko",
+  "homepage": "https://github.com/IQKV/web-config/tree/dev/packages/prettier-config#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IQKV/web-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IQKV/web-config/issues"
+  }
+}
