@@ -1,6 +1,6 @@
 {
   "name": "@iqkv/prettier-config",
-  "version": "23.0.0",
+  "version": "23.0.1",
   "description": "Shared config for Prettier",
   "author": "Dima Denysenko",
   "homepage": "https://github.com/IQKV/web-config/tree/dev/packages/prettier-config#readme",
