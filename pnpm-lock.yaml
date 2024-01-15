@@ -34,7 +34,7 @@ importers:
         version: 2.29.1(eslint@8.56.0)
       eslint-plugin-jest:
         specifier: ^27.6.0
-        version: 27.6.1(eslint@8.56.0)(typescript@5.2.2)
+        version: 27.6.3(eslint@8.56.0)(typescript@5.2.2)
       husky:
         specifier: ^8.0.3
         version: 8.0.3
@@ -3303,8 +3303,8 @@ packages:
     dev: false
     optional: true
 
-  /eslint-plugin-jest@27.6.1(eslint@8.56.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-WEYkyVXD9NlmFBKvrkmzrC+C9yZoz5pAml2hO19PlS3spJtoiwj4p2u8spd/7zx5IvRsZsCmsoImaAvBB9X93Q==}
+  /eslint-plugin-jest@27.6.3(eslint@8.56.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-+YsJFVH6R+tOiO3gCJon5oqn4KWc+mDq2leudk8mrp8RFubLOo9CVyi3cib4L7XMpxExmkmBZQTPDYVBzgpgOA==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': ^5.0.0 || ^6.0.0
