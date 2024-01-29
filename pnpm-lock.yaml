@@ -77,7 +77,7 @@ importers:
     optionalDependencies:
       '@remix-run/eslint-config':
         specifier: ^2.2.0
-        version: 2.4.1(eslint@8.53.0)(react@18.2.0)(typescript@5.2.2)
+        version: 2.5.1(eslint@8.53.0)(react@18.2.0)(typescript@5.2.2)
 
   packages/prettier-config: {}
 
@@ -1196,8 +1196,8 @@ packages:
     dev: true
     optional: true
 
-  /@remix-run/eslint-config@2.4.1(eslint@8.53.0)(react@18.2.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-kzl520uCcIi7OlqItzy/OSb3YVBklxeov8d39fFPbcSAmwO99l0PXmstQcRCQphAkGC7uRNl3LSJ9LpD3Gj2dQ==}
+  /@remix-run/eslint-config@2.5.1(eslint@8.53.0)(react@18.2.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-PpLj0QSd2NZ12KdTA2QYPd/FK3Szu9Np7kTmx26VxDZJTzQYSgGb5i2O9uby+j2sD68zR/+EAYaIcOlq66ekJw==}
     engines: {node: '>=18.0.0'}
     requiresBuild: true
     peerDependencies:
