@@ -2,7 +2,7 @@
   "name": "@iqkv/web-config",
   "private": false,
   "description": "Common configurations for building web apps at IQKV.",
-  "version": "24.0.0",
+  "version": "24.1.0",
   "scripts": {
     "build": "lerna run build",
     "lint": "prettier --check . && eslint --output-file checkstyle.xml --format checkstyle .",
